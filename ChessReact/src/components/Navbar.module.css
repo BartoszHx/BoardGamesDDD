@@ -1,0 +1,17 @@
+.appbar {
+    background-color: saddlebrown;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 3vh;
+}
+
+.link {
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.link:hover {
+    color: coral;
+}

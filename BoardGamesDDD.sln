@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33318.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chess", "Chess", "{7860FB31-D47F-4A68-A2AB-8754C66BCA3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AD96231C-FC9A-45CB-AFEF-D777171B7942}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessGame.Domain", "Chess\ChessGame.Domain\ChessGame.Domain.csproj", "{990B9EE8-C1FD-41EE-BFEA-0F276D58253E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessGame.Domain.Test", "Chess\Tests\ChessGame.Domain.Test\ChessGame.Domain.Test.csproj", "{C168ACC6-0408-4343-A850-E975AD8132DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessGame.Infrastructure", "Chess\ChessGame.Infrastructure\ChessGame.Infrastructure.csproj", "{77AD8FDD-1001-4CF8-9458-9272F1799C53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessGame.Application", "Chess\ChessGame.Application\ChessGame.Application.csproj", "{C612D2A9-73CF-4EF1-A506-A47DC530027F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "chessreact", "ChessReact\chessreact.esproj", "{677993D7-61C5-4533-BAC0-CDC2AD3EE472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{990B9EE8-C1FD-41EE-BFEA-0F276D58253E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990B9EE8-C1FD-41EE-BFEA-0F276D58253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990B9EE8-C1FD-41EE-BFEA-0F276D58253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990B9EE8-C1FD-41EE-BFEA-0F276D58253E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C168ACC6-0408-4343-A850-E975AD8132DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C168ACC6-0408-4343-A850-E975AD8132DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C168ACC6-0408-4343-A850-E975AD8132DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C168ACC6-0408-4343-A850-E975AD8132DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AD8FDD-1001-4CF8-9458-9272F1799C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AD8FDD-1001-4CF8-9458-9272F1799C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AD8FDD-1001-4CF8-9458-9272F1799C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AD8FDD-1001-4CF8-9458-9272F1799C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C612D2A9-73CF-4EF1-A506-A47DC530027F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C612D2A9-73CF-4EF1-A506-A47DC530027F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C612D2A9-73CF-4EF1-A506-A47DC530027F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C612D2A9-73CF-4EF1-A506-A47DC530027F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677993D7-61C5-4533-BAC0-CDC2AD3EE472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677993D7-61C5-4533-BAC0-CDC2AD3EE472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677993D7-61C5-4533-BAC0-CDC2AD3EE472}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{677993D7-61C5-4533-BAC0-CDC2AD3EE472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677993D7-61C5-4533-BAC0-CDC2AD3EE472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677993D7-61C5-4533-BAC0-CDC2AD3EE472}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD96231C-FC9A-45CB-AFEF-D777171B7942} = {7860FB31-D47F-4A68-A2AB-8754C66BCA3E}
+		{990B9EE8-C1FD-41EE-BFEA-0F276D58253E} = {7860FB31-D47F-4A68-A2AB-8754C66BCA3E}
+		{C168ACC6-0408-4343-A850-E975AD8132DF} = {AD96231C-FC9A-45CB-AFEF-D777171B7942}
+		{77AD8FDD-1001-4CF8-9458-9272F1799C53} = {7860FB31-D47F-4A68-A2AB-8754C66BCA3E}
+		{C612D2A9-73CF-4EF1-A506-A47DC530027F} = {7860FB31-D47F-4A68-A2AB-8754C66BCA3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {969DA208-8B5F-4D55-9829-1674BC72CC9A}
+	EndGlobalSection
+EndGlobal

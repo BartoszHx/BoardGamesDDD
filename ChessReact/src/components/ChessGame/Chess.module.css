@@ -1,0 +1,103 @@
+:root{
+}
+
+.chess {
+    height: 95vh;
+    width: 95vw;
+}
+
+.player {
+    width: 100%;
+    height: 3%;
+}
+
+.player_white {
+    background-color: antiquewhite;
+}
+
+.player_black {
+    background-color: black;
+    color: aliceblue;
+}
+
+.board{
+    height: 96%;
+    width: 100%;
+}
+
+.board_tr {
+    height: 12.5%;
+    width: 100%;
+}
+
+.board_td {
+    height: 100%;
+    width: 12.5%;
+    float: left;
+}
+
+.field {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    flex-grow: 1;
+    display: inline-block;
+    position: relative;
+}
+
+.field p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1px 2px 2px 1px;
+    font-size: 1em;
+    color: darkgrey;
+}
+
+.field_color_light {
+    background-color: antiquewhite;
+}
+
+.field_color_dark {
+    background-color: saddlebrown;
+}
+
+.field_selected {
+    background-color: lightgreen;
+    opacity: 0.8;
+}
+
+.field_circle {
+    height: 25%;
+    width: 20%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.5;
+    margin-top: 18%;
+    margin-left: 40%;
+}
+
+.field_circle_hide {
+    height: 0%;
+    width: 0%;
+}
+
+.field_circle_red {
+    background-color: red;
+}
+
+.piece {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.piece img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    height: 90%;
+    width: 95%;
+    object-fit: contain;
+}

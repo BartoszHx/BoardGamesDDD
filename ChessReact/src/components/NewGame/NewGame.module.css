@@ -1,0 +1,44 @@
+.new_game {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.new_game h1 {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.new_game p {
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.new_game input {
+    width: 10%;
+    height: 100%;
+}
+
+.new_game div{
+    margin-bottom: 10px;
+}
+
+.full_div {
+    width: 100%;
+    float: left;
+}
+
+.half_div {
+    width: 50%;
+    float: left;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
