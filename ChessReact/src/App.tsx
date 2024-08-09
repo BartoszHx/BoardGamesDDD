@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import ChessGame from "./pages/ChessGame";
 import NotFound from "./pages/NotFound";
-import TestPage from './pages/TestPage';
 import Navbar from './components/Navbar';
 import NewGame from './pages/NewGame';
 import LoadGame from './pages/LoadGame';
@@ -17,7 +16,6 @@ function App() {
                 <Routes>
                     <Route path="chess/:id" element={<ChessGame />} />
                     <Route path="*" element={<NotFound />} />
-                    <Route path="testpage" element={<TestPage />} />
                     <Route path="new-game" element={<NewGame />} />
                     <Route path="load-game" element={<LoadGame />} />
                 </Routes>

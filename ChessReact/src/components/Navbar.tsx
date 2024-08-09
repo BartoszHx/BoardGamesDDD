@@ -20,9 +20,6 @@ const Navbar = React.forwardRef((props, ref) => {
                         <Link className={styles.link} to="load-game">
                             Load Game
                         </Link>
-                        <Link className={styles.link} to="testpage">
-                            testpage
-                        </Link>
                     </Typography>
                 </Toolbar>
             </AppBar>
